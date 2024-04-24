@@ -1,0 +1,6 @@
+# ninja log v5
+0	1768	1703162058156475608	/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/src/cpu/ms_deform_attn_cpu.o	68094fc7e1227956
+1	10244	1703162066628441348	/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/src/vision.o	48e8c9f30f39757f
+1	2340	1703164615198266212	/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/src/cpu/ms_deform_attn_cpu.o	1fc79fed12bd3da6
+1	7221	1703164620078246789	/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/src/cuda/ms_deform_attn_cuda.o	74b784e657f88db1
+1	11031	1703164623886231631	/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-38/home/zpp2/ycy/fc-clip/fcclip/modeling/pixel_decoder/ops/src/vision.o	7a9abbf7e3f77a2d
