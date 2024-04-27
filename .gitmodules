@@ -1,0 +1,3 @@
+[submodule "detectron"]
+	path = detectron
+	url = https://github.com/facebookresearch/detectron2.git
