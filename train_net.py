@@ -302,7 +302,8 @@ def setup(args):
 
 def main(args):
     cfg = setup(args)
-
+    #print(cfg)
+    #exit()
     if args.eval_only:
         model = Trainer.build_model(cfg)
 
@@ -337,6 +338,7 @@ def main(args):
 if __name__ == "__main__":
     args = default_argument_parser().parse_args()
     print("Command Line Args:", args)
+    # exit()
     launch(
         main,
         args.num_gpus,

@@ -1,5 +1,6 @@
 export DETECTRON2_DATASETS='/home/zpp2/ycy/datasets/'
-export CUDA_VISIBLE_DEVICES=1
+# export CUDA_VISIBLE_DEVICES=1
 python train_net.py \
   --config-file configs/coco/panoptic-segmentation/fcclip/fcclip_convnext_large_eval_landdiscover50k.yaml \
-  --num-gpus 1 SOLVER.IMS_PER_BATCH 4
+  --num-gpus 2 SOLVER.IMS_PER_BATCH 8 SOLVER.MAX_ITER 100000 DATALOADER.NUM_WORKERS 16
+  

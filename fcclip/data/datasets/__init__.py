@@ -30,5 +30,7 @@ from . import (
     openseg_classes,
     register_LandDiscover50K,
     register_FLAIR,
-
+    register_floodnet,
+    register_ISPRS,
+    register_FAST_val
 )
